@@ -1,0 +1,27 @@
+.container{
+    border: solid 5px black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.container > div{
+    border: solid white 2px;
+    text-align: center;
+    padding:50px;
+}
+
+.container > .Hub1{
+    background-color: aqua;
+}
+.container > .Hub2{
+    background-color: brown;
+}
+.container > .Hub3{
+    background-color: red;
+}
+
+.button{
+    background-color: black;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
